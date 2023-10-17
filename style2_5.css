@@ -1,0 +1,51 @@
+header img {
+	float: left;
+	width: 100px;
+	height: 100px;
+}
+header ul {
+	list-style: none;
+	margin: 0;
+	padding: 15px;
+	float: right;
+}
+header li {
+	margin: 10px;
+	float: left;
+}
+header li a {
+	display: inline-block;
+	padding: 10px;
+	background: pink;
+}
+main div {
+	width: 1140px;
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.column {
+	column-count: 3;
+	column-gap: 15px;
+	column-width: 300px;
+}
+.block {
+	width: 300px;
+	margin: 50px;
+	padding: 10px;
+	text-align: left;
+	flex-direction: column;
+}
+.block1 {
+	border: 5px solid rgb(47, 225, 44);
+	border-radius: 50px;
+}
+.block2 {
+	border: 5px solid rgb(47, 225, 44);
+	border-radius: 50px 0 50px 0;
+}
+.block3 {
+	border: 5px solid rgb(47, 225, 44);
+	border-radius: 50px 150px;
+}
