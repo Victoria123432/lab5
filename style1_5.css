@@ -24,11 +24,13 @@ header li a {
 	column-width: 100px;
 }
 .border {
-	border-right: 5px dashed rgb(145, 25, 25);
+	border-right: 5px dotted rgb(145, 25, 25);
+	border-left: 5px dotted rgb(145, 25, 25);
 }
+
 main div {
 	width: 1140px;
-	padding: 20px;
+	padding: 0 20px 0 20px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -42,4 +44,9 @@ img {
 }
 .left {
 	float: left;
+}
+
+p {
+	text-align: justify;
+	margin: 0;
 }

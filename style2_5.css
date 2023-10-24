@@ -25,27 +25,57 @@ main div {
 	justify-content: center;
 	align-items: center;
 }
-.column {
-	column-count: 3;
-	column-gap: 15px;
-	column-width: 300px;
+
+.cards-space {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	flex-wrap: wrap;
 }
-.block {
+
+.card {
 	width: 300px;
 	margin: 50px;
 	padding: 10px;
-	text-align: left;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: start;
 	flex-direction: column;
 }
-.block1 {
+.card1 {
 	border: 5px solid rgb(47, 225, 44);
 	border-radius: 50px;
 }
-.block2 {
+.card2 {
 	border: 5px solid rgb(47, 225, 44);
 	border-radius: 50px 0 50px 0;
 }
-.block3 {
+.card3 {
 	border: 5px solid rgb(47, 225, 44);
 	border-radius: 50px 150px;
+}
+.card4 {
+	border: 20px solid green;
+	border-radius: 250px / 50px;
+	border-left-color: lightgreen;
+	border-right-color: lightgreen;
+}
+.card5 {
+	border: 20px solid green;
+	border-radius: 250px / 50px;
+	border-left-color: lightgreen;
+	border-right-color: lightgreen;
+}
+.card6 {
+	border: 20px solid green;
+	border-bottom-color: lightgreen;
+	border-top-color: lightgreen;
+	border-right-color: lightgreen;
+	border-bottom-right-radius: 100%;
+}
+.card7 {
+	border: double orange 16px;
+	border-image: url(v.png) 27 round stretch;
 }
