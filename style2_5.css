@@ -79,3 +79,23 @@ main div {
 	border: double orange 16px;
 	border-image: url(v.png) 27 round stretch;
 }
+.card8 {
+	border: double orange 16px;
+	border-image: url(Знімок\ екрана\ 2023-10-27\ 133347.png) 27 round stretch;
+}
+.card9 {
+	border: double orange 16px;
+	border-image: url(Знімок\ екрана\ 2023-10-27\ 133749.png) 27 round stretch;
+}
+.card10 {
+	border: double rgb(255, 8, 0) 16px;
+	border-image: url(Знімок\ екрана\ 2023-10-27\ 134131.png) 22 round stretch;
+}
+.card11 {
+	border: double rgb(255, 8, 0) 16px;
+	border-image: url(Знімок\ екрана\ 2023-10-27\ 134145.png) 22 round stretch;
+}
+.card12 {
+	border: double rgb(255, 8, 0) 16px;
+	border-image: url(Знімок\ екрана\ 2023-10-27\ 134201.png) 22 round stretch;
+}
