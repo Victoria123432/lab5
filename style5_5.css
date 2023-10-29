@@ -68,7 +68,17 @@ main {
 	height: 200px;
 	border-radius: 100%;
 }
-
 #hidden {
 	opacity: 0;
+}
+.card1 {
+	background-image: linear-gradient(
+		to bottom left,
+		orange,
+		rgb(154, 19, 154),
+		blue,
+		rgb(255, 243, 5),
+		rgb(156, 246, 39),
+		green
+	);
 }

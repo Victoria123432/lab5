@@ -58,13 +58,14 @@ header li a {
 	box-shadow: 0 0 5px 5px green;
 }
 .shadow3 {
-	box-shadow: 0.4em 0.4em 3px 3px rgba(1, 254, 157, 0.5);
+	box-shadow: 0.3em 0.3em 3px 3px rgba(8, 212, 134, 0.389);
 }
 .shadow4 {
-	box-shadow: 0 0 15px green;
+	box-shadow: 0 0 50px green;
 }
 .shadow5 {
-	box-shadow: 0 5px yellow, 5px 0 blue, -5px 0 0 red, 0 -5px 0 0 green;
+	box-shadow: 0 5px yellow, 5px 0 blue, -5px 0 red, 0 -5px green;
+	border-radius: 5px;
 }
 .shadow6 {
 	box-shadow: 0 5px green, 0 -5px 0 0 yellow;
