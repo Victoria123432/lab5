@@ -96,15 +96,20 @@ main {
 .card4 {
 	background: conic-gradient(
 		from 0deg at 40% 87%,
-		blue,
-		rgb(255, 255, 255) 10%,
+		rgba(2, 2, 255, 0),
+		rgba(255, 255, 255, 0) 10%,
 		yellow 10%,
 		yellow 60%,
 		green 61%,
 		green 85%,
-		rgb(255, 255, 255) 60%,
-		blue
+		rgba(255, 255, 255, 0) 60%,
+		rgba(0, 0, 255, 0)
 	);
+	position: relative;
+}
+.card4::before {
+	position: absolute;
+	background: linear-gradient(orange, white);
 }
 .card5 {
 	background: repeating-linear-gradient(
