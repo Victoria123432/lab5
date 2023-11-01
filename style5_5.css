@@ -93,11 +93,14 @@ main {
 		#fbfb00 34%
 	);
 }
+.card4::before {
+	position: relative;
+}
 .card4 {
 	background: conic-gradient(
 		from 0deg at 40% 87%,
 		rgba(2, 2, 255, 0),
-		rgba(255, 255, 255, 0) 10%,
+		rgba(243, 114, 114, 0) 10%,
 		yellow 10%,
 		yellow 60%,
 		green 61%,
@@ -105,13 +108,19 @@ main {
 		rgba(255, 255, 255, 0) 60%,
 		rgba(0, 0, 255, 0)
 	);
-	position: relative;
-}
-.card4::before {
 	position: absolute;
-	background: linear-gradient(orange, white);
 }
+
 .card5 {
+	background: conic-gradient(
+		from 0deg at 60% 40%,
+		rgb(0, 17, 255),
+		white,
+		orange 90%,
+		blue
+	);
+}
+.card6 {
 	background: repeating-linear-gradient(
 			190deg,
 			rgba(255, 0, 0, 0.5) 40px,
