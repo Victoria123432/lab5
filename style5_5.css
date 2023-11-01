@@ -94,6 +94,17 @@ main {
 	);
 }
 .card4 {
+	background: conic-gradient(
+		from 0deg at 40% 87%,
+		blue,
+		rgb(255, 255, 255) 10%,
+		yellow 10%,
+		yellow 60%,
+		green 61%,
+		green 85%,
+		rgb(255, 255, 255) 60%,
+		blue
+	);
 }
 .card5 {
 	background: repeating-linear-gradient(
