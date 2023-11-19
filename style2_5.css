@@ -76,16 +76,28 @@ main div {
 	border-bottom-right-radius: 100%;
 }
 .card7 {
-	border: double orange 16px;
-	border-image: url(v.png) 27 round stretch;
+	border-image-slice: 21 19 14 20;
+	border-image-width: 16px 10px 17px 15px;
+	border-image-outset: 33px 18px 27px 24px;
+	border-image-repeat: stretch stretch;
+	border-image-source: url(romb.jpg);
+	border-style: solid;
 }
 .card8 {
-	border: double orange 16px;
-	border-image: url(Знімок\ екрана\ 2023-10-27\ 133347.png) 27 round stretch;
+	border-image-slice: 17 17 17 17;
+	border-image-width: 19px 19px 19px 19px;
+	border-image-outset: 26px 18px 27px 24px;
+	border-image-repeat: repeat repeat;
+	border-image-source: url(romb.jpg);
+	border-style: solid;
 }
 .card9 {
-	border: double orange 16px;
-	border-image: url(Знімок\ екрана\ 2023-10-27\ 133749.png) 27 round stretch;
+	border-image-slice: 27 28 26 27;
+	border-image-width: 19px 19px 19px 19px;
+	border-image-outset: 23px 18px 27px 24px;
+	border-image-repeat: repeat repeat;
+	border-image-source: url(romb.jpg);
+	border-style: solid;
 }
 .card10 {
 	border: double rgb(255, 8, 0) 16px;
